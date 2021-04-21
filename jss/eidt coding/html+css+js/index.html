@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluclter Age</title>
+    <script>
+        
+        function input()
+            {
+            var name = document.getElementById("textarea").value;
+            document.getElementById("output").innerHTML = name;
+            }
+    </script>
+    <style>
+        #textarea{
+            width: 100%;
+            height: 600px;
+            background-color: black;
+            color: whitesmoke;
+            margin-top:8%;
+            border-radius: 5px;
+            font-family:Arial;
+            font-size: 30px;
+        }
+        #button{
+            width: 100%;
+            height:30px;
+            margin-top: 10px;
+            font-family: Georgia, serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #output
+        {
+            width: 100%;
+            height: 600px;
+            background-color: black;
+            color: whitesmoke;
+            margin-top:3%;
+            border-radius: 5px;
+            font-family:Arial;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+       
+       <textarea id="textarea"></textarea>
+       <button onclick="input()" id="button" type="button">تحويل</button>
+       <div id="output"></div>
+    <script src="Java.js"></script>
+</body>
+</html>

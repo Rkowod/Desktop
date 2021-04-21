@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:rgb(247, 237, 237);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+        text-align: center;
+
+        padding: 20px 0 20px 0;
+        }
+        #t-x-t, #Bton-n ,#massg{
+            background:silver;
+            height: 300px;
+            text-align: center;
+        }
+         #Mytext{
+             width: 20%;
+             height: 40px;
+             border-radius: 4px;
+             border: 1px rgb(51, 50, 50) solid;
+             font-size: 25px;
+         }
+         .bto-n-4,#bto-n-1,#bto-n-2,#bto-n-3
+         {
+             padding: 5px;
+             margin: 0 10px 0 10px;
+             bottom: 60%;
+             position: relative;
+             width: 10%;
+             font-size: 25px;
+             font-weight: bold;
+             background: slategray;
+             color: #fff;
+             border-radius: 5px;
+         }
+
+         #chickens,#Meat,#Milk{
+             font-size: 30px;
+             position: relative;
+             bottom: 99%;
+         }
+    </style>
+</head>
+<body>
+    
+    
+<h1>حساب سعرات الاكل</h1>
+
+
+<!--start text-->
+<div id="t-x-t">
+    <input type="text" name="" id="Mytext">
+</div>
+<!--End text-->
+
+
+<!-- Start Button-->
+<div id="Bton-n">
+    <button id="bto-n-1">دجاج</button>
+    <button id="bto-n-2">لحم</button>
+    <button id="bto-n-3">حليب</button>
+    <button class="bto-n-4" id="Clear" onClick="clearIt()">حذف</button>
+</div>
+<!--End Button-->
+
+
+<!-- Start Massgeis-->
+<div id="massg">
+<div id="chickens"></div>
+<div id="Meat"></div>
+<div id="Milk"></div>
+</div>
+<!-- End Massgeis-->  
+
+<script src="Jav.js"></script>
+</body>
+</html>

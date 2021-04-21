@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; box-sizing: border-box;}
+        body{min-height: 100hv; background:linear-gradient(65deg,rgb(181,41,231),
+        rgb(216,43,43));}
+
+        h1{position: relative;;text-align: center;color:#fff;padding:3%;}
+        .txt{position: relative; left: 42%;width: 250px;height: 40px; font-size: 20px;box-shadow:  -8px 6px 4px #222; border: none; outline: none; padding: 0 5px; font-weight:bold;}
+        .bto-n{position: relative; left: 42.1%; width: 2.5%; height: 30px; border: 0px;border-radius: 3px; font-size: 20px; background: darkcyan; color: whitesmoke; outline: none; cursor: pointer;}
+        ul{
+            width:500px ;
+            list-style: none;
+            
+        }
+        ul li {box-shadow:  -8px 6px 4px #222; color: black; font-size: 20px; width: 100%; background: #fff; height: 40px; line-height: 40px; padding:0 5px; position: relative; cursor: pointer; left: 140%; top:50px; display: block; margin: 5px; font-weight: bold;}
+        ul li span{position:absolute; top:0; right: 0; width: 50px; text-align: center; background: #e00; color: whitesmoke;}
+        .clear{clear: both;}
+    </style>
+</head>
+<body>
+    
+    <h1>Add Items And Delete Items</h1>
+    
+    <!--Start  {float: right ;position: relative; right: 35%; color:black;font-size: 25px; margin:10px 20px 0 20px; top:15px; list-style: none; font-weight: bold;}  -->
+    <!--End   -->
+
+    <!--Start text  -->
+
+        <input type="text"  id="MyItem" class="txt" required>
+    
+    <!--End text  -->
+
+
+    <!--Start button  -->
+    <BUtton type="submit" class="bto-n"><i class="fa fa-plus" aria-hidden="true" ></i></BUtton>
+    <!--End button  -->
+
+    <div class="clear"></div>
+    <!--Start   -->
+    <div class="list">
+        <div class="clear"></div>
+        <ul>
+            <li>dev <span>X</span></li>
+            <li>as <span>X</span></li>
+            <li>hg <span>X</span></li>
+            <li>gf <span>X</span></li>
+        </ul>
+    </div>
+    <!--End   -->
+
+    <script src="jsitems"></script>
+</body>
+</html>
